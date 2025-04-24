@@ -1,8 +1,10 @@
-"features": {
-    "ghcr.io/arnofranz/devcontainer-features/adx-mcp-server:1.0.0": {
-        "version": "latest",
-        "adxClusterUrl": "https://gh-analytics.eastus.kusto.windows.net",
-        "adxDatabase": "copilot",
-        "adxMcpRepo": "https://github.com/pab1it0/adx-mcp-server"
+{
+    "features": {
+        "ghcr.io/arnofranz/devcontainer-features/adx-mcp-server:1.0.0": {
+            "version": "latest",
+            "adxClusterUrl": "https://gh-analytics.eastus.kusto.windows.net",
+            "adxDatabase": "copilot",
+            "adxMcpRepo": "https://github.com/pab1it0/adx-mcp-server"
+        }
     }
 }
