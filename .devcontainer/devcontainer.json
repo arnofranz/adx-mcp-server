@@ -1,8 +1,21 @@
 {
+    "name": "ADX MCP Server Dev Container",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
     "features": {
         "ghcr.io/caol-ila/adx-mcp-server/adx-mcp-server:latest": {
+            "version": "latest",
             "adxClusterUrl": "https://gh-analytics.eastus.kusto.windows.net",
             "adxDatabase": "copilot"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "ms-azuretools.vscode-azureresourcegroups",
+                "ms-azuretools.vscode-azuredatastudio"
+            ]
         }
     }
 }
