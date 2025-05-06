@@ -5,7 +5,7 @@
         "ghcr.io/caol-ila/adx-mcp-server/adx-mcp-server:latest": {
             "version": "latest",
             "adxClusterUrl": "https://gh-analytics.eastus.kusto.windows.net",
-            "adxDatabase": ["snapshots", "canonical", "hydro", "copilot"]
+            "adxDatabase": "hydro"
         }
     },
     "customizations": {
